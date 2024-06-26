@@ -3,7 +3,7 @@ include "root" {
 }
 
 include "env" {
-  path = "${get_terragrunt_dir()}/../../_env/frontend.hcl"
+  path = "${get_terragrunt_dir()}/../../../../_env/frontend.hcl"
 }
 
 inputs = {

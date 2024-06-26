@@ -15,15 +15,15 @@ locals {
 }
 
 dependency "vpc" {
-  config_path = "../vpc"
+  config_path = "../../vpc"
 }
 
 dependency "alb" {
-  config_path = "../alb"
+  config_path = "../../alb"
 }
 
 dependency "ecs_cluster" {
-  config_path = "../ecs-cluster"
+  config_path = "../../ecs-cluster"
 }
 
 inputs = {
